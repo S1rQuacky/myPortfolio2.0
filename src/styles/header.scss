@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+.title{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.pageLink{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 20px;
+    
+    a:hover{
+        color: turquoise;
+    }
+    
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(48, 129, 67);
+    position:fixed;
+    width: 100%;
+    background: rgba( 255, 255, 255, 0.45 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+@media screen and (min-width: 992px) {
+    .header{
+        display:flex;
+    }
+}
