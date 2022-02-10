@@ -1,9 +1,11 @@
 import React from 'react';
+import '../styles/projects.scss'
 
 function Projects() {
-  return <div>
+  return <div className='b-container'>
       
     <h1 >Projects</h1>
+    <div className='c-container'>
         <div className="project1"> 
             <a href="https://the-finising-touch.netlify.app/"> The Finishing Touch </a>
             <p>This project was a team collaboration. I worked on the Google Auth piece and was Project Manager and Product Owner</p>
@@ -19,6 +21,7 @@ function Projects() {
                 to board your kitty. 
             </p>
         </div>
+        </div>    
         
     </div>
 
