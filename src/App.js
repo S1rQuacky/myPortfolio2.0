@@ -1,4 +1,4 @@
-import './styles/home.scss'
+// import './styles/home.scss'
 // import './App.css';
 import Home from './components/Home.js';
 import About from './components/About.js'

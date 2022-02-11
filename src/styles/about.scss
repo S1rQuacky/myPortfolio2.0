@@ -49,6 +49,7 @@ p, h4{
 @media screen and (max-width: 600px) {
     .a-container, .about, .tech{
         width: 100%;
+        flex-direction: column;
     }
     
 }
