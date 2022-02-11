@@ -15,7 +15,7 @@ function Projects() {
                would like into your cart and the cart will show you a possible total cost for the products you add.<br/>
                <br/>
                
-               Node.js | dotenv | cors | mongoose | morgan | react | react-dom | react-google-login | sass
+               Node.js | dotenv | cors | mongoose | morgan | react | react-dom | react-google-login | sass | Heroku | Netlify
             </p>
         </div>
         <div className='project2'>
@@ -25,15 +25,18 @@ function Projects() {
                 With this app, you can become a host to a kitty, in this app you can post information of your location and accomodations and add images. 
                 A user can become a host by posting their location for kitty boarding.<br/>
             <br/>
-               Node.js | react | react-dom | react-router-dom | sass | rack-cors | PostgreSQL | Ruby on Rails | 
+               Node.js | react | react-dom | react-router-dom | sass | rack-cors | PostgreSQL | Ruby on Rails | Heroku | Netlify
             </p>
         </div>
         <div className='project3'>
             <a href='https://your-purrfect-getaway.netlify.app/'>Your Purrfect Getaway</a>
             <img src='/img/yourPurrfect.jpeg' alt='YourPurrfect'/>
-            <p>This app is a 2.0 to Purrfect Getaway. This app was created using Express for backend, Heroku, NextJS and Next-Auth. In this design you can sign up to
-                be a Host or a Customer. If you choose Host, you will see a different home page and available options. As a customer you can view different locations 
-                to board your kitty. 
+            <p>This app is a 2.0 to Purrfect Getaway. In this design you can sign up to be a Host or a Customer. If you choose Host, you will see a 
+                different home page and you will be able to add a location to the site. As a customer you can view different locations to board your kitty. <br/>
+                With a customer login, you can see your details, add your kitty or kitties to your profile. <br/>
+            <br/>
+                NextJS | Express | MongoDB | Next-Auth | React | React-Dom | Sass | Heroku | Netlify <br/>
+                <br/>
             </p>
         </div>
         </div>    

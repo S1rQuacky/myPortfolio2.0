@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
 *{
     padding: 0;
@@ -7,22 +8,23 @@
     outline: none;
   }
 .title{
-    font-family: 'Barlow Condensed', sans-serif;
-    color: red;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(66, 46, 46);
     font-size: 30px;
     text-decoration: none;
     margin-right: auto;
 }
 
 .pageLink{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
     text-decoration: none;
     padding: 0px 20px;
+    color: #3c4863;
     
     a:hover{
-        color: turquoise;
+        color: pink;
     }
     
 }
@@ -46,3 +48,4 @@
         display:flex;
     }
 }
+

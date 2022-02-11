@@ -1,5 +1,5 @@
 import './styles/home.scss'
-import './App.css';
+// import './App.css';
 import Home from './components/Home.js';
 import About from './components/About.js'
 import Projects from './components/Projects.js'

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif; 
+}
+
 .b-container{
     display: flexbox;
     background-color: rgb(235, 231, 231);
@@ -22,79 +28,92 @@
     margin: 0 0 4em 0;
     
 
-.project1{
-    img{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        max-width: 600px;
-        max-height: 300px;
-        padding: .5em;
-        margin-left: 20em;
+    .project1{
+        img{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            width: 600px;
+            max-height: 300px;
+            padding: .5em;
+            margin-left: 20em;
+        }
+
+        a{
+            display: flex;
+            color: #3c465c;
+            font-size: 2.3em;
+            justify-content: center; 
+            padding: .8em;  
+        }
+        a:hover{
+            color: pink;
+        }
+
+        p{
+        padding: 1em 4em; 
+        }
+        
     }
 
-    a{
-        display: flex;
-        color: #3c465c;
-        font-size: 2.3em;
-        justify-content: center; 
-        padding: .8em;  
-    }
-    a:hover{
-        color: pink;
+    .project2{
+        img{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            max-width: 600px;
+            max-height: 300px;
+            padding: .5em;
+            margin-left: 28em;
+        }
+        a{
+            display: flex;
+            color: #3c465c;
+            font-size: 2.3em;
+            justify-content: center;  
+            padding: .8em;    
+        }
+        a:hover{
+            color: pink;
+        }
+
+        p{
+            padding: 1em 4em; 
+        }
+        
     }
 
-    
+    .project3{
+        img{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            max-width: 600px;
+            max-height: 300px;
+            padding: .5em;
+            margin-left: 23em;
+        }
+        a{
+            display: flex;
+            color: #3c465c;
+            font-size: 2.3em;
+            justify-content: center;  
+            padding: .8em;     
+        }
+        a:hover{
+            color: pink;
+        }
 
-    p{
-       padding: 1em 4em; 
+        p{
+            padding: 1em 4em; 
+        }
+        
     }
-    
 }
 
-.project2{
-    img{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        max-width: 600px;
-        max-height: 300px;
-        padding: .5em;
-        margin-left: 28em;
-    }
-    a{
-        display: flex;
-        color: #3c465c;
-        font-size: 2.3em;
-        justify-content: center;  
-        padding: .8em;    
-    }
-    a:hover{
-        color: pink;
+@media screen and (min-width: 992px) {
+    .b-container, .c-container{
+        width: 100%;
     }
     
-}
-
-.project3{
-    img{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        max-width: 600px;
-        max-height: 300px;
-        padding: .5em;
-        margin-left: 23em;
-    }
-    a{
-        display: flex;
-        color: #3c465c;
-        font-size: 2.3em;
-        justify-content: center;  
-        padding: .8em;     
-    }
-    a:hover{
-        color: pink;
-    }
-    
-}
 }

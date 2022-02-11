@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif; 
+}
+
 .a-container{
     display: flexbox;
     background-color: white;
@@ -38,4 +44,11 @@ p, h4{
     width: 75%;
     height:70%;
     margin: 0 0 0 9em;
+}
+
+@media screen and (max-width: 600px) {
+    .a-container, .about, .tech{
+        width: 100%;
+    }
+    
 }
